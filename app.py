@@ -1,5 +1,8 @@
 import streamlit as st
 
+# Page config
+st.set_page_config(page_title="Growth mindset project", page_icon="⭐")
+
 # Custom CSS for styling
 st.markdown("""
     <style>
@@ -31,9 +34,6 @@ st.markdown("""
         }
     </style>
 """, unsafe_allow_html=True)
-
-# Page config
-st.set_page_config(page_title="Growth mindset project", page_icon="⭐")
 
 # Title & description
 st.title("🌱 Growth mindset challenge By Amber Parmaar")
